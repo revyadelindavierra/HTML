@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 50px;
+}
+
+/* Gaya untuk menu bar */
+nav {
+  background-color: #FF9FF3; /* Warna latar belakang */
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #F39AC0; /* Warna tautan saat dihover */
+}
+
+/* Gaya lainnya */
+/* ... */
+
+
+section {
+  padding: 60px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* Tambahkan gaya untuk halaman kedua */
+#education {
+  background: linear-gradient(to bottom, #FF9FF3, #FFD5F3);
+  color: #333;
+}
