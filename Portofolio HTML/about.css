@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    overflow:visible;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right, #9759ce 0%, #EE6690 100%);
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    width: 99px;
+    color: #fff;
+    margin-left: 75px;
+    
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px 12;
+    transition: background 1s;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 108px;
+}
+nav li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 22px;
+    
+}
+nav ul li a{
+    color: #fff;
+    text-decoration:none;
+    font-weight: 1000;
+    transition: color 0.3s; /* Menambahkan transisi warna 0.3 detik */
+}
+
+nav ul li a:hover {
+    color: #35155D; /* Mengubah warna saat cursor menyentuh */
+}
+
+nav:hover{
+    background: #d483bf;
+}
+.kalimat {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.kalimat h1 {
+    font-size: 30px;
+    color: floralwhite;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.personal-info-box {
+    background-color:#fff; 
+    padding: 105px; 
+    margin: 50px ;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.photo {
+    width: 384px;
+    height: 384px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+    border: 25px solid transparent; 
+    background:#d483bf; 
+}
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.details {
+    flex: 1;
+}
+
+.details h2 {
+    font-size: 30px;
+    margin: 12px 30px;
+    font-weight: 1000;
+
+}
+.details h3 {
+    font-size: 30px;
+    margin: 12px 30px;
+}
+
+.details p {
+    font-size: 25px;
+    margin: 25px 30px;
+}
+
+.history {
+    text-align: center; 
+    margin-top: 20px; 
+}
+.history h1 {
+    color: #f1f1f1;
+    font-size: 42px; 
+    margin: 0; 
+    font-weight: 1000;
+}
+
+.school-list {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    margin-top: 20px;
+}
+
+.school {
+    flex-basis: calc(33.33% - 20px); 
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.school .school-image {
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+    width: 399px;
+    height: 370px;
+    margin-left: 30px;
+}
+
+.school-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.school-info {
+    text-align: center;
+    padding: 10px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e897d8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #f1f1f1;
+}
