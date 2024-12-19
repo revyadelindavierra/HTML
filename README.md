@@ -1,4 +1,4 @@
-# HTML Repository
+# HTML 
 
 ## 📋 Description
 This repository contains files and projects related to learning or developing with HTML. HTML (HyperText Markup Language) is the foundation of web development used to structure web pages.
