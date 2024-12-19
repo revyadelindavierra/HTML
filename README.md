@@ -43,9 +43,6 @@ Contributions are welcome! Please fork this repository and submit pull requests 
 - **CSS** *(optional)*: For styling (if included).
 - **JavaScript** *(optional)*: For interactivity (if included).
 
-## 📄 License
-This repository is licensed under the [MIT License](LICENSE). You are free to use and modify this project as needed.
-
 ## 📧 Contact
 If you have any questions or suggestions, feel free to reach out:
 - **Name**: Revy Adelinda Vierra
