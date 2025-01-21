@@ -16,33 +16,33 @@ HTML/
 │   └── images/
 └── README.md      # Project documentation
 
----
+--
 
 📦 **Features**  
 - **Basic HTML**: Includes examples of fundamental HTML elements.  
 - **Web Page Structure**: Demonstrates how web page structures are designed.  
 - **CSS and JavaScript Integration**: Shows how to link CSS or JavaScript files to HTML.  
 
----
+--
 
 📂 **Key Files**  
 - `index.html`: Main page or homepage of the project.  
 - `about.html`: Page with information about this project.  
 - `contact.html`: Contact page.  
 
----
+--
 
 🤝 **Contributions**  
 Contributions are welcome! Please fork this repository and submit pull requests with any new changes or additions.  
 
----
+--
 
 🛠️ **Technologies Used**  
 - **HTML5**: For page structure and markup.  
 - **CSS (optional)**: For styling (if included).  
 - **JavaScript (optional)**: For interactivity (if included).  
 
----
+--
 
 📧 **Contact**  
 If you have any questions or suggestions, feel free to reach out:  
@@ -51,4 +51,4 @@ If you have any questions or suggestions, feel free to reach out:
 - **Linkedin**: [Revy Adelinda Vierra](www.linkedin.com/in/revyvierra)
 
 Happy coding! 🚀
----
+
